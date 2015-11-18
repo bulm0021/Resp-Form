@@ -1,0 +1,15 @@
+.Form{
+	margin: 0 auto;	
+}
+
+.MastHead
+{
+	text-align: center;	
+}
+label{
+	float: left;
+}
+
+.subBtn{
+	clear: both;	
+}
