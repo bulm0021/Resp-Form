@@ -87,9 +87,9 @@ body{
         padding-right: 15%;
     }
 
-@media screen and (max-width:480px)
+@media screen and (max-width:500px)
 {
-    
+
     label
     {
         text-align: left;
@@ -103,9 +103,7 @@ body{
         clear: both;
         display: block;   
     }
-    body{
-        background-color:#B04CFF;
-    }
+
     
     .email{
         
@@ -144,9 +142,9 @@ body{
    
 }
 
-@media screen and (min-width:480px)
+@media screen and (max-width:1000px)
 {
-    
+
     
     label
     {
@@ -161,9 +159,7 @@ body{
         clear: both;
         display: block;   
     }
-    body{
-        background-color:#B04CFF;
-    }
+
     
     .email{
         
@@ -198,56 +194,62 @@ body{
         text-align: center;
     }
     
-    .col1{
-        display: block;
-        padding: 0 50% 0 50%;
+    .Col1{
         float: left;
-        margin: auto 0;
+        width: 100%;
     }
-    .col2{
-        display: block;
-        padding: 0 50% 0 50%;
-        float: right;
-        margin: auto 0;
+    .Col2{
+        float: left;
+        width: 100%;
+        clear: both;
+        
     }
 }
 
-@media screen and (min-width:500px)
+@media screen and (min-width:1000px)
 {
-    
+    .Col1{
+        float: left;
+        width: 100%;
+    }
+    .Col2{
+        float: left;
+        width: 100%;
+        clear: both;
+        
+    }
    
     
-   
+    label{
+        display: block;
+        float: left;
+        
+    }
    
     .email{
         
         float:left;
-        display: inline;
-        padding-right: 10px;
+        padding: 5%;
         
        
     }
     .PASS{
         float:left;
-        padding-right: 10px;
-        display: inline;
+        padding: 5%;
         
       
     }
     .URL{
         float: left;
-        display: inline;
-        padding-right: 10px;
+        padding: 5%;
         
     }
     
     .name
     {
+        
         float: left;
-        display: inline;
-        padding-right: 10px;
-        
-        
+         padding: 5%; 
     }
     
     .subBtn{
