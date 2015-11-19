@@ -1,23 +1,42 @@
+/*
 .Form{
 	margin: 0 auto;	
+    font-family: 'Libre Baskerville', serif;
 }
 
 .MastHead
 {
+    font-family: 'Oswald', sans-serif;
 	text-align: center;	
+    background-color: #47007F;
+    color: white;
+    width:100%;
 }
-.PageWrap
+.Wrapper
 {
     margin: 0 auto;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
-label{
+
+label
+{
 	float: left;
+    padding: 20px;
+}
+
+input{
+ 
+clear: both;
+    
+}
+body{
+    background-color:#B04CFF;
 }
 
 .email{
-    float: left;
+    
+    float:left;
 }
 .PASS{
     float:left;
@@ -31,12 +50,221 @@ label{
   float: left;
 }
 .subBtn{
-	clear: both;	
+ 
+    clear: both;
+    text-align: center;
+    width:100%;
 }
-label{
-    padding: 20px;
+
+#btnlabel{
+    padding-left: 25%;
+    padding-right: 25%;
 }
-input{
-    padding: 10px;
+*/
+ body{
+        background-color:#B04CFF;
+    }
+    
+.Form
+{	
+    margin: 0 auto;	
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+    
+.MastHead
+{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;	
+    background-color: #47007F;
+    color: white;
+    width:100%;
+}
+.Wrapper
+    {
+        margin: 0 auto;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+@media screen and (max-width:480px)
+{
+    
+    label
+    {
+        text-align: left;
+        padding: 20px;
+        display: block;
+        clear: both;
+    }
+    
+    input{
+        
+        clear: both;
+        display: block;   
+    }
+    body{
+        background-color:#B04CFF;
+    }
+    
+    .email{
+        
+        float:left;
+        display: block;
+    }
+    .PASS{
+        float:left;
+        display: block;
+    }
+    .URL{
+        float: left;
+        display: block;
+    }
+    
+    .name
+    {
+        float: left;
+        display: block;
+    }
+    
+    .subBtn{
+        
+        clear: both;
+        text-align: center;
+        width:100%;
+        padding-left: 10%;
+        }
+ #btnlabel{
+        padding-left: 25%;
+        padding-right: 25%;
+        text-align: center;
+    }
+    
+    
+   
+}
+
+@media screen and (min-width:480px)
+{
+    
+    
+    label
+    {
+        text-align: left;
+        padding: 20px;
+        display: block;
+        clear: both;
+    }
+    
+    input{
+        
+        clear: both;
+        display: block;   
+    }
+    body{
+        background-color:#B04CFF;
+    }
+    
+    .email{
+        
+        float:left;
+        display: block;
+    }
+    .PASS{
+        float:left;
+        display: block;
+    }
+    .URL{
+        float: left;
+        display: block;
+    }
+    
+    .name
+    {
+        float: left;
+        display: block;
+    }
+    
+    .subBtn{
+        
+        clear: both;
+        text-align: center;
+        width:100%;
+        padding-left: 10%;
+        }
+ #btnlabel{
+        padding-left: 25%;
+        padding-right: 25%;
+        text-align: center;
+    }
+    
+    .col1{
+        display: block;
+        padding: 0 50% 0 50%;
+        float: left;
+        margin: auto 0;
+    }
+    .col2{
+        display: block;
+        padding: 0 50% 0 50%;
+        float: right;
+        margin: auto 0;
+    }
+}
+
+@media screen and (min-width:500px)
+{
+    
+   
+    
+   
+   
+    .email{
+        
+        float:left;
+        display: inline;
+        padding-right: 10px;
+        
+       
+    }
+    .PASS{
+        float:left;
+        padding-right: 10px;
+        display: inline;
+        
+      
+    }
+    .URL{
+        float: left;
+        display: inline;
+        padding-right: 10px;
+        
+    }
+    
+    .name
+    {
+        float: left;
+        display: inline;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .subBtn{
+        clear: both;
+        text-align: center;
+        width:100%;
+        margin: auto 0;
+        padding-top:5% 50% 0 25%
+        
+        }
+    #btnlabel{
+        
+        text-align: center;
+        margin: auto 0;
+        width: 25%;
+    }
+    
+   
 }
 
